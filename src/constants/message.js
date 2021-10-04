@@ -1,0 +1,13 @@
+export const NETWORK_ERROR = 'Thiết bị của bạn không được kết nối với Internet';
+export const POST_PRODUCT_ERROR = 'Xảy ra lỗi trong quá trình thêm sản phẩm';
+export const POST_PRODUCT_SUCCESS ='Thêm sản phẩm thành công';
+export const POST_PRODUCT_WARNING = 'Bạn phải nhập hết tất cả các trường';
+export const EMTY_CART = 'Không có sản phẩn nào trong giỏ hàng';
+export const NOT_LOGGERIN_WARNING = 'Bạn phải đăng nhập để thực hiện thao tác này';
+export const VALIDATION_MESSAGE = 'Vui lòng nhập trường này!!!';
+export const VALIDATION_EMAIL_ERROR = 'Email không hợp lệ';
+export const VALIDATION_PASSWORD_WARNING ='Mật khẩu tối thiểu 8 kí tự';
+export const LOGIN_SUCCESS ='Đăng nhập thành công';
+export const LOGIN_VALIDATIN_WARNING = 'Bạn phải nhập đúng tất cả các trường';
+export const REPASSWORD_NO_EXACT = 'Mật khẩu không trùng khớp';
+export const REGISTER_SUCCESS = 'Đăng ký thành công'

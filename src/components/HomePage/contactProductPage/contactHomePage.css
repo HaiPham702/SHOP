@@ -1,0 +1,64 @@
+.contact_home_page{
+    height: 300px;
+}
+
+.take_place{
+    height: 300px;
+    position: absolute;
+    background-attachment: fixed;
+    background-image: url(https://bec-iowa.org/wp-content/uploads/2017/08/contact-us-banner.jpg);
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.take_place::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.45);
+}
+
+.title_contact{
+    font-weight: 550;
+    color: #fff;
+    margin-top: 50px;
+    z-index: 2;
+}
+
+.contact_discription{
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    z-index: 2;
+}
+.box_input_contact_homePage{
+    width: 600px;
+    background-color: #fff;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+}
+
+.input_contact_homePage{
+    border: none;
+    margin: 0 15px;
+    padding: 10px 0;
+    width: 100%;
+    outline: none;
+}
+
+.register_btn_contact_homePage{
+    width: 190px;
+    background-color: var(--primary-color);
+    padding: 15px 0;
+    text-align: center;
+    color: #fff;
+    font-weight: 550;
+}

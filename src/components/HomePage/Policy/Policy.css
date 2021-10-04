@@ -1,0 +1,22 @@
+.policy{
+    margin: 60px 0;
+    display: flex;
+    background-color: #eee;
+}
+
+.list-policy{
+    height: 127px;
+    width: 25%;
+    display: flex;
+    align-items: center;
+}
+
+.list-policy img{
+    height: 50px;
+    margin: 0 15px;
+}
+
+.policy-title{
+    font-size: 1.6rem;
+    font-weight: 600;
+}

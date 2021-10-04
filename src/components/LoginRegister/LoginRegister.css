@@ -1,0 +1,83 @@
+.login-register{
+    width: 450px;
+    margin: 0 auto;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.heding_login{
+    color: var(--primary-color);
+    text-transform: uppercase;
+    font-weight: 550;
+    font-size: 24px;
+    border-bottom: 2px solid;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.vadidate{
+    box-shadow: 0 0 6px red;
+}
+
+.mess_validation{
+    color: red;
+}
+
+.btn_login{
+    width: 100%;
+    padding: 10px 0;
+    background-color: var(--primary-color);
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.btn_login:hover {
+    background-color: var(--black-color);
+}
+
+.login_policy{
+    text-align: center;
+    margin: 15px 40px;
+    margin-bottom: 0;
+}
+
+.login_to_register{
+    text-align: center;
+    font-weight: 550;
+    margin-top: 15px;
+}
+
+.login-register a{
+    color: red;
+}
+
+.loginWithGg{
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    line-height: normal;
+    margin: 20px auto;
+    max-width: 260px;
+    min-height: 40px;
+    padding: 12px 16px;  
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+}
+
+.loginWithGg p{
+    margin: 0;
+    color: #757575;
+}
+
+.icon_login{
+    width: 18px ;
+    height: 18px;
+    margin-right: 20px;
+}

@@ -1,0 +1,36 @@
+.btn_add_product{
+    width: 200px;
+    
+    padding: 10px 15px;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 40px auto;
+    cursor: pointer;
+}
+
+.btn_add_product:hover{
+    background-color: var(--black-color);
+}
+.start_caution{
+    color: red;
+    margin-left: 10px;
+    font-size:8px ;
+}
+
+.invalit{
+    border-color:red ;
+    box-shadow: 0 0 5px  red;
+}
+
+.message{
+    color: red;
+}
+
+.text_area_addproducts{
+    min-height: 120px;
+    max-width: 100%;
+}
+

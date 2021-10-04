@@ -1,0 +1,239 @@
+.product_item{
+    border: 2px solid #0000000f;
+    border-radius:15px ;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.product_item:hover{
+    border: 2px solid var(--primary-color);
+}
+
+.product_item:hover .img_product{
+    animation: zoom 0.8s ease;
+    width: 120%;
+    height: 120%;
+
+}
+
+.product_item:hover .view_product{
+    display: block;
+}
+
+.product_item:hover .like-product{
+    display: block;
+}
+
+.product_item:hover .compare_product{
+    display: block;
+}
+
+
+.placeholder-image{
+    width: 100%;
+    cursor: wait;
+    height: 190px;
+    background-color: #abb4bd;
+    animation: loading 0.9s infinite alternate;
+}
+
+.placeholder-pirce{
+    margin: 10px 0;
+    cursor: wait;
+    width: 82px;
+    height: 24px;
+    animation: loading 0.9s infinite alternate;
+}
+
+.placeholder-name{
+    width: 190px;
+    cursor: wait;
+    height: 40px;
+    animation: loading 0.9s infinite alternate;
+}
+
+.placeholder-status{
+    width: 190px;
+    height: 27px;
+    cursor: wait;
+    animation: loading 0.9s infinite alternate;
+    margin: 10px 0;
+}
+
+.placeholder-radit{
+    width: 100px;
+    height: 27px;
+    cursor: wait;
+    animation: loading 0.9s infinite alternate;
+}
+
+.placeholder-btn{
+    width: 190px;
+    cursor: wait;
+    height: 32px;
+    border-radius: 15px;
+    animation: loadingBtn 0.9s infinite alternate;
+    margin: 10px auto;
+}
+
+.img_product{
+    padding-top: 100%;
+    margin: 10px 10px 0 10px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+
+.product-price{
+    color: #f00;
+    font-weight: 560;
+    font-size: 18px;
+    margin-bottom: 14px;
+}
+
+.product-status{
+    color: var(--primary-color);
+}
+
+.product-conten{
+   margin-top: 15px;
+    padding: 20px 24px;
+    padding-top: 0;
+}
+
+.btn_add_to_cart{
+    border: 1px solid var(--primary-color);
+    padding: 10px 10px;
+    border-radius: 25px;
+    text-align:center;
+    margin: 10px 0;
+    color: var(--primary-color);
+    margin: 0 15px 20px 15px;
+    cursor: pointer;
+}
+
+.btn_add_to_cart:hover{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.icon_add_cart{
+    margin-right: 5px;
+}
+
+.rating{
+    color: #faca51;
+}
+
+.name-product{
+    font-size: 16px;
+    font-weight: 500;
+    height: 70px;
+}
+
+.view_product{
+    position: absolute;
+    color: var(--primary-color);
+    top: 10%;
+    right: 10%;
+    padding: 6px 8px;
+    border: 2px solid var(--primary-color);
+    border-radius: 25px;
+    background-color: #fff;
+    display: none;
+}
+
+.like-product{
+    position: absolute;
+    color: var(--primary-color);
+    top: 20%;
+    right: 10%;
+    padding: 6px 9px;
+    border: 2px solid var(--primary-color);
+    border-radius: 25px;
+    background-color: #fff;
+    display: none;
+    
+}
+
+.compare_product{
+    position: absolute;
+    color: var(--primary-color);
+    top: 30%;
+    right: 10%;
+    padding: 6px 9px;
+    border: 2px solid var(--primary-color);
+    border-radius: 25px;
+    display: none;
+    background-color: #fff;
+}
+
+.discount_products{
+    position: absolute;
+    background-color: var(--primary-color);
+    border-radius: 2px;
+    padding: 2px 5px;
+    top: 5%;
+    left: 8%;
+    color: #fff;
+}
+
+.view_product:hover,.like-product:hover,.compare_product:hover{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.price_discounts{
+    display: flex;
+}
+
+.product-price-discount{
+    text-decoration: line-through;
+    margin-right: 10px;
+}
+
+.new_prices{
+    color: #f00;
+    font-weight: 560;
+    font-size: 18px;
+}
+
+.product_brand{
+    float: right;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 550;
+}
+
+
+
+@keyframes loading {
+    from{
+        background-color: #a2a7ac;
+    }
+    to{
+        background-color: #d9dfe4;
+    }
+}
+
+@keyframes loadingBtn {
+    from{
+        background-color: #afc78f;
+    }
+    to{
+        background-color: rgb(204, 223, 207);
+    }
+}
+
+@keyframes zoom {
+    from{
+       width: 100%;
+       height: 100%;
+    }
+    to{
+        width: 120%;
+        height: 120%;
+    }
+}

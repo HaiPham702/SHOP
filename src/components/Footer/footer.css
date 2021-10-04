@@ -1,0 +1,67 @@
+.footer{
+    background-color: #363f4d;
+
+}
+.footer-conten{
+    margin-top: 40px ;
+}
+.footer-heading{
+    color: #fff;
+    margin: 10px 0;
+}
+.footer-contact{
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 20px;
+}
+
+.icon-footer-contact{
+    color: #fff;
+    padding: 10px 13px;
+    background-color: #313945;
+    margin-right: 10px;
+    border: 1px solid #2d343f;
+}
+
+.footer-contact-title{
+    color: #fff;
+    font-size: 1.5rem;
+}
+.footer-contact-conten{
+    color: #fff;
+    font-size: 1.3rem;
+}
+.by{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+}
+
+.list_payment_methods{
+    display: flex;
+
+}
+.payment_methods{
+    margin: 10px;
+}
+
+.icon_pay_by{
+    width: 24px;
+    margin: 7px 16px;
+}
+
+.pay-for{
+    color: #fff;
+}
+
+.img-sp-bank{
+    width: 100%;
+    margin: 15px 0;
+}
+
+.location-footer{
+    width: 100%;
+    height: 270px;
+}

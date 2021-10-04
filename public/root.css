@@ -1,0 +1,30 @@
+:root{
+    --primary-color : #68b501;
+    --black-color: #363f4d;
+    --border-corlor : #ebebeb;
+    --text-color: #4c4c4c;
+    --red-color : #e91640;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h3{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    all:unset;
+    
+}
+
+a:hover,a:active,a:visited{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+
+}
